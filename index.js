@@ -1,21 +1,9 @@
-function add(x1,x2){
-    return x1 + x2;
-}
+const math = require('./math');
 
-function substract(x1,x2){
-    return x1 - x2;
-}
-
-function multiply(x1,x2){
-    return x1 * x2;
-}
-
-function divide(x1,x2){
-    if(x2 == 0){
-        console.log('No se puede dividir por 0');
-    }else{
-        return x1 / x2;
-    }
-}
-
-console.log(divide(1,3));
+console.log(math);
+/*
+console.log(math.add(1,3));
+console.log(math.substract(1,3));
+console.log(math.multiply(1,3));
+console.log(math.divide(1,0));
+*/
